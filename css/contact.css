@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Reset */
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Roboto';
+}
+
+/* Whole Doc */
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: url(./iii.jpg) no-repeat;
+    background-position:top center;
+    background-size: cover;
+} 
+
+/*Contact Us*/
+.contact-section{
+    position:relative;
+    top: 180px;
+    width: 40%;
+    background: #34495E;
+    padding: 40px 0;
+    transition: all 0.5s; 
+    /* animation */
+    animation: anim 2s ease-in forwards;
+    margin-left: 120px;
+    margin-top: -150px;
+}
+/* loading animation */
+@keyframes anim{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.contact-section:hover{
+    transform: scale(1.03);
+}
+
+/* Heading */
+.contact-section h1{
+  text-align: center;
+  color: #ecf0f1;
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+}
+
+.border{
+    width: 100px;
+    height: 6px;
+    background: #e74c3c;
+    margin: 20px auto;
+}
+/* Form */
+.contact-form{
+    max-width: 600px;
+    margin:auto;
+    padding: 0 20px;
+    overflow:hidden
+}
+.c-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: none;
+    background: #ecf0f1;
+    padding: 20px 40px;
+outline: hidden;
+color: #2c3e50;
+transition: all 0.5s;
+}
+
+.c-text:focus{
+   padding: 15px 30px;
+}
+
+textarea{
+    resize: none;
+    height: 120px;
+}
+
+.c-btn{
+    width: 100%;
+    height: 5vh;
+    font-size: 1rem;
+    background: #e74c3c;
+    outline: none;
+    border: none;
+    color: #ecf0f1;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.c-btn:hover{
+    background: #ecf0f1;
+    color: #e74c3c;
+    font-size: 1.1rem;
+}
+/* Responsive */
+@media(max-width:1400px){
+    /* Whole Doc */
+    body{
+        background-size: 1500px;
+}
+
+@media(max-width:1000px){
+        /* Contact Section */
+        .contact-section{
+            width: 60%;
+        }
+}
+
+@media(max-width:600px){
+    /* Contact Section */
+    .contact-section{
+        width: 80%;
+    }
+}
+}

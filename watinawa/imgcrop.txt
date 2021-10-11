@@ -1,0 +1,16 @@
+#py{
+  width: 15%;
+  position: absolute;
+  margin-top: -170px;
+  margin-left: -45px;
+  opacity: 40%;
+  z-index: -1;
+  clip: rect(0px,115px,200px,0px);
+  transition: 0.5s ease;
+}
+
+.python:hover #py{
+  clip: rect(0px,150px,200px,0px);
+  margin-left: -79px;
+  transition: 0.5s ease;
+}

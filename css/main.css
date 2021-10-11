@@ -1,0 +1,515 @@
+html{
+    scroll-behavior: smooth;
+}
+/*
+body{
+  background-color: #020c18;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 40, 92); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+#main-logo{
+    width: 520px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+#hero #h{
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 736px;
+    color: rgb(0, 109, 252);
+    animation: anim 1s ease-in forwards;
+    
+}
+@keyframes anim{
+  from{
+      opacity: 0;
+  }
+  to{
+      opacity: 1;
+  }
+}
+#welcome{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 700px;
+    color: rgb(0, 83, 190);
+    animation: anim 1s ease-in forwards;
+}
+
+#hero h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 850px;
+    color: rgb(0, 39, 90);
+    animation: anim 1s ease-in forwards;
+}
+
+.main-btn-group{
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 640px;
+  animation: anim 1s ease-in forwards;
+}
+#yt{
+  background-color: transparent;
+  border: solid 2px rgb(0, 83, 190);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 420px;
+  height: 35px;
+  width: 120px;
+  transition: 0.5s ease;
+  margin-left: 85px;
+}
+
+#yt:hover{
+  background-color: rgb(0, 83, 190);
+  color: white;
+  cursor: pointer;
+}
+
+#sign-btn{
+  background-color: rgb(255, 3, 66);
+  border: solid 2px rgb(255, 3, 66);
+  color: white;
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 420px;
+  height: 35px;
+  width: 120px;
+  transition: 0.5s ease;
+  margin-left: 250px;
+}
+
+#sign-btn:hover{
+  background-color: transparent;
+  border: solid 2px rgb(255, 3, 66);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+
+#w-i-t{
+  background-color: transparent;
+  border: solid 2px rgb(0, 83, 190);
+  border-radius: 4px;
+  position: absolute;
+  margin-top: 420px;
+  height: 35px;
+  width: 120px;
+  transition: 0.5s ease;
+  margin-left: 425px;
+}
+
+#w-i-t:hover{
+  background-color: rgb(0, 83, 190);
+  color: white;
+  cursor: pointer;
+}
+
+/*second section*/
+
+#wh{
+  clear: both;
+  
+}
+
+.sinhala{
+  width: 50%;
+  padding-left: 20px;
+  line-height:40px;
+  padding-top: 50px;
+  animation: anim 1s ease-in forwards;
+}
+
+.english{
+  width: 50%;
+  padding-left: 20px;
+  line-height:40px;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  animation: anim 1s ease-in forwards;
+}
+
+#wh h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 70px;
+  animation: anim 1s ease-in forwards;
+}
+
+
+#second-img{
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 750px;
+  animation: anim 1s ease-in forwards;
+}
+
+/*sec2 btns*/
+
+#trans{
+  background-color: transparent;
+  border: solid 2px rgb(0, 83, 190);
+  border-radius: 4px;
+  position: absolute;
+  height: 35px;
+  width: 150px;
+  transition: 0.5s ease;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+#trans:hover{
+  background-color: rgb(0, 83, 190);
+  color: white;
+  cursor: pointer;
+}
+
+#trans-sin{
+  background-color: transparent;
+  border: solid 2px rgb(0, 83, 190);
+  border-radius: 4px;
+  position: absolute;
+  height: 35px;
+  width: 150px;
+  transition: 0.5s ease;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+#trans-sin:hover{
+  background-color: rgb(0, 83, 190);
+  color: white;
+  cursor: pointer;
+}
+
+#wv{
+  background-color: transparent;
+  border: solid 2px rgb(255, 3, 66);
+  border-radius: 4px;
+  position: absolute;
+  height: 35px;
+  width: 150px;
+  transition: 0.5s ease;
+  margin-top: 30px;
+  margin-left: 210px;
+}
+
+#wv:hover{
+  background-color: rgb(255, 3, 66);
+  color: white;
+  cursor: pointer;
+}
+
+
+#cous{
+  background-color: transparent;
+  border: solid 2px rgb(0, 83, 190);
+  border-radius: 4px;
+  position: absolute;
+  height: 35px;
+  width: 150px;
+  transition: 0.5s ease;
+  margin-top: 30px;
+  margin-left: 400px;
+}
+
+#cous:hover{
+  background-color: rgb(0, 83, 190);
+  color: white;
+  cursor: pointer;
+}
+
+/*main video*/
+
+#main-vid{
+  position: absolute;
+  z-index: 1;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: -200px;
+  margin-left: 730px;
+}
+
+
+/*couses cards*/
+
+.card{
+  margin-top: 70px;
+}
+
+.python{
+  width: 220px;
+  height: 280px;
+  
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+  /*background: linear-gradient(3deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,211,254,1) 100%);*/
+  transition: 0.5s ease;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  color: rgb(0, 0, 0);
+  border-radius: 7px;
+  
+
+}
+.python:hover{
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+.python h4{
+  font-size: 13px;
+  color: rgb(0, 9, 88);
+}
+.python button{
+  font-size: 13px;
+  background-color: transparent;
+  border: solid 2px rgb(0, 109, 252);
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  transition: 0.5s ease;
+}
+.python button:hover{
+  background: rgb(0, 89, 255);
+
+color: white;
+transition: 0.5s ease;
+cursor: pointer;
+}
+
+.cyber{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  width: 1200px;
+  height: 250px;
+  margin-left: 20px;
+  margin-top: 200px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transition: 0.5s ease;
+}
+
+
+
+#cs{
+  width: 25%;
+  margin-top: -30px;
+  float: right;
+  
+}
+
+
+.cyber h1{
+  text-align: center;
+  margin-left: 200px;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+.cyber ul{
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.cyber ul li{
+  display: inline;
+  padding: 20px;
+  list-style:armenian;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 115, 0);
+  text-align: center;
+  
+}
+
+.cyber button{
+  background-color: blue;
+  border-radius: 5px;
+  border: solid 2px blue;
+  color: white;
+  width: 150px;
+  height: 40px;
+  float: right;
+  margin-top: -8px;
+  margin-left: 80px;
+  transition: 1.5s ease;
+}
+
+.cyber button:hover{
+  transform: scale(1.05);
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.prg{
+  margin-top: -120px;
+  margin-left: 120px;
+}
+
+.prg .cyber h3{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.prg .cyber #cs{
+  margin-top: -23px;
+}
+
+.card .cyber:hover{
+  margin-left: 50px;
+}
+
+.prg  .cyber:hover{
+  margin-left: -10px;
+}
+
+
+.cyber h3{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  line-height: 30px;
+}
+
+.gd{
+  margin-top: -120px;
+  transition: 0.5s ease;
+}
+
+.gd:hover{
+  margin-left: 50px;
+}
+.abt-card{
+  display: inline-block;
+  padding: 30px;
+  margin-left: 180px;
+}
+#maleesha{
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 270px;
+  margin-top: 150px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.5s ease;
+  border:2px solid;
+  border-image:linear-gradient(45deg,red,blue) 10;
+}
+#maleesha:hover{
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+}
+#maleesha #photo{
+  width: 120%;
+  margin-top: -60px;
+  margin-left: -25px;
+}
+
+#maleesha h2{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: -50px;
+}
+
+#maleesha p{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -15px;
+  margin-left: 5px;
+}
+
+#induwara{
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 270px;
+  margin-top: -270px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.5s ease;
+  border-radius: 10px;
+  margin-left: 350px;
+  border:2px solid;
+  border-image:linear-gradient(45deg,red,blue) 10;
+}
+#induwara:hover{
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+  
+}
+#induwara #photo{
+  width: 120%;
+  margin-top: -60px;
+  margin-left: -25px;
+}
+
+#induwara h2{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: -50px;
+}
+
+#induwara p{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -15px;
+  margin-left: 5px;
+}
+
+
+#hirantha{
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 270px;
+  margin-top: -275px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.5s ease;
+  border-radius: 10px;
+  margin-left: 700px;
+  border:2px solid;
+  border-image:linear-gradient(45deg,red,blue) 10;
+}
+#hirantha:hover{
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+  
+}
+#hirantha #photo{
+  width: 120%;
+  margin-top: -60px;
+  margin-left: -25px;
+}
+
+#hirantha h2{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: -50px;
+}
+
+#hirantha p{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -15px;
+  margin-left: 5px;
+}
